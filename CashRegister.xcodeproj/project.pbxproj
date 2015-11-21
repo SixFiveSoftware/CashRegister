@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		201BB7B11C00F513009F6A96 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201BB7B01C00F513009F6A96 /* Item.swift */; };
+		201BB7B31C00FA28009F6A96 /* RegisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201BB7B21C00FA28009F6A96 /* RegisterTests.swift */; };
+		201BB7B51C00FDA4009F6A96 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201BB7B41C00FDA4009F6A96 /* Register.swift */; };
+		201BB7B71C0103A4009F6A96 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201BB7B61C0103A4009F6A96 /* CreditCard.swift */; };
+		201BB7B91C0103D3009F6A96 /* CreditCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201BB7B81C0103D3009F6A96 /* CreditCardTests.swift */; };
 		207292851C00F138005FC5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207292841C00F138005FC5C3 /* AppDelegate.swift */; };
 		207292871C00F138005FC5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207292861C00F138005FC5C3 /* ViewController.swift */; };
 		2072928A1C00F138005FC5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207292881C00F138005FC5C3 /* Main.storyboard */; };
 		2072928C1C00F138005FC5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2072928B1C00F138005FC5C3 /* Assets.xcassets */; };
 		2072928F1C00F138005FC5C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2072928D1C00F138005FC5C3 /* LaunchScreen.storyboard */; };
 		2072929A1C00F138005FC5C3 /* CashRegisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207292991C00F138005FC5C3 /* CashRegisterTests.swift */; };
+		207292A51C00F3B5005FC5C3 /* ItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207292A41C00F3B5005FC5C3 /* ItemTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		201BB7B01C00F513009F6A96 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		201BB7B21C00FA28009F6A96 /* RegisterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterTests.swift; sourceTree = "<group>"; };
+		201BB7B41C00FDA4009F6A96 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		201BB7B61C0103A4009F6A96 /* CreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		201BB7B81C0103D3009F6A96 /* CreditCardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreditCardTests.swift; path = ../CashRegister/CreditCardTests.swift; sourceTree = "<group>"; };
 		207292811C00F138005FC5C3 /* CashRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		207292841C00F138005FC5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		207292861C00F138005FC5C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +47,7 @@
 		207292951C00F138005FC5C3 /* CashRegisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashRegisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		207292991C00F138005FC5C3 /* CashRegisterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashRegisterTests.swift; sourceTree = "<group>"; };
 		2072929B1C00F138005FC5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207292A41C00F3B5005FC5C3 /* ItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,9 @@
 				2072928B1C00F138005FC5C3 /* Assets.xcassets */,
 				2072928D1C00F138005FC5C3 /* LaunchScreen.storyboard */,
 				207292901C00F138005FC5C3 /* Info.plist */,
+				201BB7B01C00F513009F6A96 /* Item.swift */,
+				201BB7B41C00FDA4009F6A96 /* Register.swift */,
+				201BB7B61C0103A4009F6A96 /* CreditCard.swift */,
 			);
 			path = CashRegister;
 			sourceTree = "<group>";
@@ -90,8 +105,11 @@
 		207292981C00F138005FC5C3 /* CashRegisterTests */ = {
 			isa = PBXGroup;
 			children = (
+				201BB7B81C0103D3009F6A96 /* CreditCardTests.swift */,
+				207292A41C00F3B5005FC5C3 /* ItemTests.swift */,
 				207292991C00F138005FC5C3 /* CashRegisterTests.swift */,
 				2072929B1C00F138005FC5C3 /* Info.plist */,
+				201BB7B21C00FA28009F6A96 /* RegisterTests.swift */,
 			);
 			path = CashRegisterTests;
 			sourceTree = "<group>";
@@ -198,6 +216,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				207292871C00F138005FC5C3 /* ViewController.swift in Sources */,
+				201BB7B71C0103A4009F6A96 /* CreditCard.swift in Sources */,
+				201BB7B11C00F513009F6A96 /* Item.swift in Sources */,
+				201BB7B51C00FDA4009F6A96 /* Register.swift in Sources */,
 				207292851C00F138005FC5C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +227,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201BB7B91C0103D3009F6A96 /* CreditCardTests.swift in Sources */,
+				207292A51C00F3B5005FC5C3 /* ItemTests.swift in Sources */,
 				2072929A1C00F138005FC5C3 /* CashRegisterTests.swift in Sources */,
+				201BB7B31C00FA28009F6A96 /* RegisterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +412,7 @@
 				207292A01C00F138005FC5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		207292A11C00F138005FC5C3 /* Build configuration list for PBXNativeTarget "CashRegisterTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +421,7 @@
 				207292A31C00F138005FC5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
