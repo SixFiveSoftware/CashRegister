@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		207292851C00F138005FC5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207292841C00F138005FC5C3 /* AppDelegate.swift */; };
+		207292871C00F138005FC5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207292861C00F138005FC5C3 /* ViewController.swift */; };
+		2072928A1C00F138005FC5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207292881C00F138005FC5C3 /* Main.storyboard */; };
+		2072928C1C00F138005FC5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2072928B1C00F138005FC5C3 /* Assets.xcassets */; };
+		2072928F1C00F138005FC5C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2072928D1C00F138005FC5C3 /* LaunchScreen.storyboard */; };
+		2072929A1C00F138005FC5C3 /* CashRegisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207292991C00F138005FC5C3 /* CashRegisterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		207292961C00F138005FC5C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 207292791C00F138005FC5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207292801C00F138005FC5C3;
+			remoteInfo = CashRegister;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		207292811C00F138005FC5C3 /* CashRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		207292841C00F138005FC5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		207292861C00F138005FC5C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		207292891C00F138005FC5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2072928B1C00F138005FC5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2072928E1C00F138005FC5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		207292901C00F138005FC5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207292951C00F138005FC5C3 /* CashRegisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashRegisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		207292991C00F138005FC5C3 /* CashRegisterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashRegisterTests.swift; sourceTree = "<group>"; };
+		2072929B1C00F138005FC5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2072927E1C00F138005FC5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207292921C00F138005FC5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207292781C00F138005FC5C3 = {
+			isa = PBXGroup;
+			children = (
+				207292831C00F138005FC5C3 /* CashRegister */,
+				207292981C00F138005FC5C3 /* CashRegisterTests */,
+				207292821C00F138005FC5C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		207292821C00F138005FC5C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				207292811C00F138005FC5C3 /* CashRegister.app */,
+				207292951C00F138005FC5C3 /* CashRegisterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		207292831C00F138005FC5C3 /* CashRegister */ = {
+			isa = PBXGroup;
+			children = (
+				207292841C00F138005FC5C3 /* AppDelegate.swift */,
+				207292861C00F138005FC5C3 /* ViewController.swift */,
+				207292881C00F138005FC5C3 /* Main.storyboard */,
+				2072928B1C00F138005FC5C3 /* Assets.xcassets */,
+				2072928D1C00F138005FC5C3 /* LaunchScreen.storyboard */,
+				207292901C00F138005FC5C3 /* Info.plist */,
+			);
+			path = CashRegister;
+			sourceTree = "<group>";
+		};
+		207292981C00F138005FC5C3 /* CashRegisterTests */ = {
+			isa = PBXGroup;
+			children = (
+				207292991C00F138005FC5C3 /* CashRegisterTests.swift */,
+				2072929B1C00F138005FC5C3 /* Info.plist */,
+			);
+			path = CashRegisterTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		207292801C00F138005FC5C3 /* CashRegister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2072929E1C00F138005FC5C3 /* Build configuration list for PBXNativeTarget "CashRegister" */;
+			buildPhases = (
+				2072927D1C00F138005FC5C3 /* Sources */,
+				2072927E1C00F138005FC5C3 /* Frameworks */,
+				2072927F1C00F138005FC5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashRegister;
+			productName = CashRegister;
+			productReference = 207292811C00F138005FC5C3 /* CashRegister.app */;
+			productType = "com.apple.product-type.application";
+		};
+		207292941C00F138005FC5C3 /* CashRegisterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207292A11C00F138005FC5C3 /* Build configuration list for PBXNativeTarget "CashRegisterTests" */;
+			buildPhases = (
+				207292911C00F138005FC5C3 /* Sources */,
+				207292921C00F138005FC5C3 /* Frameworks */,
+				207292931C00F138005FC5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				207292971C00F138005FC5C3 /* PBXTargetDependency */,
+			);
+			name = CashRegisterTests;
+			productName = CashRegisterTests;
+			productReference = 207292951C00F138005FC5C3 /* CashRegisterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		207292791C00F138005FC5C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Six Five Software, LLC";
+				TargetAttributes = {
+					207292801C00F138005FC5C3 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					207292941C00F138005FC5C3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 207292801C00F138005FC5C3;
+					};
+				};
+			};
+			buildConfigurationList = 2072927C1C00F138005FC5C3 /* Build configuration list for PBXProject "CashRegister" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 207292781C00F138005FC5C3;
+			productRefGroup = 207292821C00F138005FC5C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				207292801C00F138005FC5C3 /* CashRegister */,
+				207292941C00F138005FC5C3 /* CashRegisterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2072927F1C00F138005FC5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2072928F1C00F138005FC5C3 /* LaunchScreen.storyboard in Resources */,
+				2072928C1C00F138005FC5C3 /* Assets.xcassets in Resources */,
+				2072928A1C00F138005FC5C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207292931C00F138005FC5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2072927D1C00F138005FC5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207292871C00F138005FC5C3 /* ViewController.swift in Sources */,
+				207292851C00F138005FC5C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207292911C00F138005FC5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2072929A1C00F138005FC5C3 /* CashRegisterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		207292971C00F138005FC5C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207292801C00F138005FC5C3 /* CashRegister */;
+			targetProxy = 207292961C00F138005FC5C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		207292881C00F138005FC5C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207292891C00F138005FC5C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2072928D1C00F138005FC5C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2072928E1C00F138005FC5C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2072929C1C00F138005FC5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2072929D1C00F138005FC5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2072929F1C00F138005FC5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CashRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixfivesoftware.CashRegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		207292A01C00F138005FC5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CashRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixfivesoftware.CashRegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		207292A21C00F138005FC5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CashRegisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixfivesoftware.CashRegisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashRegister.app/CashRegister";
+			};
+			name = Debug;
+		};
+		207292A31C00F138005FC5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CashRegisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixfivesoftware.CashRegisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashRegister.app/CashRegister";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2072927C1C00F138005FC5C3 /* Build configuration list for PBXProject "CashRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2072929C1C00F138005FC5C3 /* Debug */,
+				2072929D1C00F138005FC5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2072929E1C00F138005FC5C3 /* Build configuration list for PBXNativeTarget "CashRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2072929F1C00F138005FC5C3 /* Debug */,
+				207292A01C00F138005FC5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		207292A11C00F138005FC5C3 /* Build configuration list for PBXNativeTarget "CashRegisterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207292A21C00F138005FC5C3 /* Debug */,
+				207292A31C00F138005FC5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 207292791C00F138005FC5C3 /* Project object */;
+}
